@@ -1,5 +1,5 @@
-motocicletas, harley-davidson
+empresa de constucao
 
-projeto usado para intruducao a programacao e autoria web, que eu irei desenvolver um site em que vou descrever alguns modelos de harley-davidson. 
+nessa empresa de contrucao esta precisando de um site em que calcule o salario de cada funcionario, que esse funcionario tera que informar, se ele trabalhou a noite, se trabalhou o fim de semana, vai ter que informar o nome, se fez horas extras, se trabalhou nos feriados.
 
-no projeto eu irei dizer um pouco dos modelos da marca de moto harley-davidson, dizer algumas caracteriscas. detalhar agumas informacoes para que o comprador copreenda um pouco da historia, o quais as principais pecas, tipos de combustivel que motocicleta usa, dizer os modelos mais vendidos e procurado.
+
