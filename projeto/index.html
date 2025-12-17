@@ -8,6 +8,8 @@
 <style>
     body{
        background-color: dimgray;
+       align-items: center;
+       text-align: center;
     }
     h1{
         text-align: center;
@@ -21,6 +23,9 @@
     }
     
     .f1{
+        margin: 15px;
+        align-items: center;
+        display: flex;
         margin: 10px;
         border: 10px;
         font-size: 15px;
@@ -43,47 +48,67 @@
         
 
     }
+    .text{
+        flex-direction: column;
+        display: flex;
+        border: rgb(243, 75, 75) 2px solid;
+        width: 450px;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+    .conteiner{
+        align-items: center;
+        border: solid rgb(243, 75, 75) 2px;
+   
+
+    }
 </style>
 <body>
       <h1> HARLEY-DAVIDSON</h1>
       <h4>O MODELO IDEAL DAS MOTOS HARLEY-DAVIDSON PARA VOCÊ. </h4>
+      <h4>CURIOSIDADE</h4>
+      <div class="conteiner">
+         <div class="text">
+               <p> <b>1903 não foi o primeiro ano de produção da H-D</b>
+                Em 1903, William Harley e Arthur Davidson concluíram sua primeira motocicleta, um projeto que levou dois anos para ser finalizado, contando com a assistência do designer alemão Emil Kroger. O sucesso inicial impulsionou a produção, e no ano seguinte, em 1904, mais dois protótipos foram fabricados. Um deles foi vendido ao Sr. Meyer e, notavelmente, acumulou impressionantes 83.000 milhas após passar por quatro proprietários. O ano de 1905 marcou o início da produção em “massa” para a Harley-Davidson, com a fabricação de oito motocicletas, consolidando os primeiros passos de uma lenda.
+            
+              </p>
+       </div>
       <div class="c1">
-   <form class="f1" >
-        <p> <label for="n">Modelo:</label> </p>
-        <p><input type="text" name="nome" id="n" required/> </p>
+   
+   
+      <form class="f1" >
 
-        <p> 
+    
+             <label for="n">Modelo:</label>
+              <input type="text" name="nome" id="n" required/>
+
+        <br>
+
             <label for="n">ano:</label> 
-        </p>
-        <p> 
-            <input type="name" name="nome" id="n" required/> 
-        </p>
- 
-        <p> 
-            <label for="n">Tipo de combustivel:</label> 
-        </p>
-        <p> 
-            <input type="text" name="nome" id="n" required/> 
-        </p>
-
-        <p> 
-            <label for="n">cor:</label> 
-        </p>
-        <p>
-             <input type="text" name="nome" id="n" required/>
-        </p>
-
-        <p> 
-            <label for="n">tipo do motor:</label> 
-        </p>
-        <p> 
+             <input type="name" name="nome" id="n" required/>
+        </br>
+        <br>
+          
+           <label for="n">Tipo de combustivel:</label> 
             <input type="text" name="nome" id="n" required/>
-        </p>
-        
-        <p>
-            <input class="butao" type="submit" value="enviar"/>
-        </p>
-    </form>
-    </div>
+        </br>
+        <br>
+            <label for="n">cor:</label> 
+             <input type="text" name="nome" id="n" required/>
+        </br>
+        <br>
+            <label for="n">tipo do motor:</label> 
+             <input type="text" name="nome" id="n" required/>
+        </br>
+        <br>
+             <input class="butao" type="submit" value="enviar"/>
+        </br>  
+       </form>
+  </div>
+ </div>
+
 </body>
 </html>
