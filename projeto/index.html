@@ -1,114 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOTO IDEAL</title>
+
+    <style>
+        body{
+            background-color: dimgray;
+            text-align: center;
+        }
+
+        h1{
+            color: rgb(243, 75, 75);
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+
+        h4{
+            color: rgb(243, 75, 75);
+            margin: 5px 0;
+        }
+
+        p{
+            font-size: 20px;
+            color: black;
+        }
+
+        .conteiner{
+            border: 2px solid rgb(243, 75, 75);
+            width: 520px;
+            margin: 20px auto;
+            padding: 15px;
+        }
+
+        .text{
+            border: 2px solid rgb(243, 75, 75);
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .c1{
+            border: 2px solid rgb(243, 75, 75);
+            padding: 15px;
+        }
+
+        .f1{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 15px;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        input{
+            padding: 5px;
+        }
+
+        .butao{
+            background-color: rgb(243, 75, 75);
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .butao:hover{
+            opacity: 0.85;
+        }
+        
+    </style>
 </head>
-<style>
-    body{
-       background-color: dimgray;
-       align-items: center;
-       text-align: center;
-    }
-    h1{
-        text-align: center;
-        color: rgb(243, 75, 75);
-        font-size: 70px;
-    }
-    p{
-        font-size: 20px;
-        text-align: center;
-        color: black;
-    }
-    
-    .f1{
-        margin: 15px;
-        align-items: center;
-        display: flex;
-        margin: 10px;
-        border: 10px;
-        font-size: 15px;
-        flex-direction: column;
-    }
-    h4{
-        color: rgb(243, 75, 75);
-        text-align: center;
-    }
-    .c1{
-        border: 2px solid rgb(243, 75, 75);
-        width: 400px;
-        margin: 0 auto;
-        align-items: center;
-    }
-    .butao{
-        border: 1px;
-        background-color: rgb(243, 75, 75);
-        margin: auto;
-        
 
-    }
-    .text{
-        flex-direction: column;
-        display: flex;
-        border: rgb(243, 75, 75) 2px solid;
-        width: 450px;
-        align-items: center;
-        text-align: center;
-        
-
-    }
-    .conteiner{
-        align-items: center;
-        border: solid rgb(243, 75, 75) 2px;
-   
-
-    }
-</style>
 <body>
-      <h1> HARLEY-DAVIDSON</h1>
-      <h4>O MODELO IDEAL DAS MOTOS HARLEY-DAVIDSON PARA VOCÊ. </h4>
-      <h4>CURIOSIDADE</h4>
-      <div class="conteiner">
-         <div class="text">
-               <p> <b>1903 não foi o primeiro ano de produção da H-D</b>
-                Em 1903, William Harley e Arthur Davidson concluíram sua primeira motocicleta, um projeto que levou dois anos para ser finalizado, contando com a assistência do designer alemão Emil Kroger. O sucesso inicial impulsionou a produção, e no ano seguinte, em 1904, mais dois protótipos foram fabricados. Um deles foi vendido ao Sr. Meyer e, notavelmente, acumulou impressionantes 83.000 milhas após passar por quatro proprietários. O ano de 1905 marcou o início da produção em “massa” para a Harley-Davidson, com a fabricação de oito motocicletas, consolidando os primeiros passos de uma lenda.
-            
-              </p>
-       </div>
-      <div class="c1">
-   
-   
-      <form class="f1" >
 
-    
-             <label for="n">Modelo:</label>
-              <input type="text" name="nome" id="n" required/>
+    <h1>HARLEY-DAVIDSON</h1>
+    <h4>O MODELO IDEAL DAS MOTOS HARLEY-DAVIDSON PARA VOCÊ.</h4>
+    <h4>CURIOSIDADE</h4>
 
-        <br>
+    <div class="conteiner">
 
-            <label for="n">ano:</label> 
-             <input type="name" name="nome" id="n" required/>
-        </br>
-        <br>
-          
-           <label for="n">Tipo de combustivel:</label> 
-            <input type="text" name="nome" id="n" required/>
-        </br>
-        <br>
-            <label for="n">cor:</label> 
-             <input type="text" name="nome" id="n" required/>
-        </br>
-        <br>
-            <label for="n">tipo do motor:</label> 
-             <input type="text" name="nome" id="n" required/>
-        </br>
-        <br>
-             <input class="butao" type="submit" value="enviar"/>
-        </br>  
-       </form>
-  </div>
- </div>
+        <div class="text">
+            <p>
+                <b>1903 não foi o primeiro ano de produção da H-D</b><br><br>
+                Em 1903, William Harley e Arthur Davidson concluíram sua primeira motocicleta,
+                um projeto que levou dois anos para ser finalizado. O sucesso inicial impulsionou
+                a produção e, em 1905, a Harley-Davidson iniciou sua produção em pequena escala.
+            </p>
+        </div>
+
+        <div class="c1">
+            <form class="f1">
+
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" required>
+
+                <label for="ano">Ano:</label>
+                <input type="date" id="ano" required>
+
+                <label for="combustivel">Tipo de combustível:</label>
+                <input type="text" id="combustivel" required>
+
+                <label for="cor">Cor:</label>
+                <input type="text" id="cor" required>
+
+                <label for="motor">Tipo do motor:</label>
+                <input type="text" id="motor" required>
+
+                <input class="butao" type="submit" value="Enviar">
+
+            </form>
+        </div>
+
+    </div>
 
 </body>
 </html>
